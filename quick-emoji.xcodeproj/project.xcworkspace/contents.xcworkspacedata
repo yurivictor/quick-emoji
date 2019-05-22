@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:collection-view-tutorial-2.xcodeproj">
+      location = "self:/Users/yurivictor/Projects/quick-emoji/quick-emoji.xcodeproj">
    </FileRef>
 </Workspace>

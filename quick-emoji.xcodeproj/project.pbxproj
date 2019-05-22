@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F22A562F228228EE0081613F /* collection-view-tutorial-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "collection-view-tutorial-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22A562F228228EE0081613F /* quick-emoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quick-emoji.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F22A5632228228EE0081613F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F22A5634228228EE0081613F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F22A5636228228EF0081613F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		F22A5626228228EE0081613F = {
 			isa = PBXGroup;
 			children = (
-				F22A5631228228EE0081613F /* collection-view-tutorial-2 */,
+				F22A5631228228EE0081613F /* quick-emoji */,
 				F22A5630228228EE0081613F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,12 +49,12 @@
 		F22A5630228228EE0081613F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F22A562F228228EE0081613F /* collection-view-tutorial-2.app */,
+				F22A562F228228EE0081613F /* quick-emoji.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F22A5631228228EE0081613F /* collection-view-tutorial-2 */ = {
+		F22A5631228228EE0081613F /* quick-emoji */ = {
 			isa = PBXGroup;
 			children = (
 				F22A5632228228EE0081613F /* AppDelegate.swift */,
@@ -66,15 +66,15 @@
 				F22A563B228228EF0081613F /* Info.plist */,
 				F22A563C228228EF0081613F /* collection_view_tutorial_2.entitlements */,
 			);
-			path = "collection-view-tutorial-2";
+			path = "quick-emoji";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F22A562E228228EE0081613F /* collection-view-tutorial-2 */ = {
+		F22A562E228228EE0081613F /* quick-emoji */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F22A563F228228EF0081613F /* Build configuration list for PBXNativeTarget "collection-view-tutorial-2" */;
+			buildConfigurationList = F22A563F228228EF0081613F /* Build configuration list for PBXNativeTarget "quick-emoji" */;
 			buildPhases = (
 				F22A562B228228EE0081613F /* Sources */,
 				F22A562C228228EE0081613F /* Frameworks */,
@@ -84,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = "collection-view-tutorial-2";
+			name = "quick-emoji";
 			productName = "collection-view-tutorial-2";
-			productReference = F22A562F228228EE0081613F /* collection-view-tutorial-2.app */;
+			productReference = F22A562F228228EE0081613F /* quick-emoji.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F22A562A228228EE0081613F /* Build configuration list for PBXProject "collection-view-tutorial-2" */;
+			buildConfigurationList = F22A562A228228EE0081613F /* Build configuration list for PBXProject "quick-emoji" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F22A562E228228EE0081613F /* collection-view-tutorial-2 */,
+				F22A562E228228EE0081613F /* quick-emoji */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 				CODE_SIGN_ENTITLEMENTS = "collection-view-tutorial-2/collection_view_tutorial_2.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "collection-view-tutorial-2/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/quick-emoji/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yurivictor.collection-view-tutorial-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yurivictor.quick-emoji";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -300,12 +300,12 @@
 				CODE_SIGN_ENTITLEMENTS = "collection-view-tutorial-2/collection_view_tutorial_2.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "collection-view-tutorial-2/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/quick-emoji/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yurivictor.collection-view-tutorial-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yurivictor.quick-emoji";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -314,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F22A562A228228EE0081613F /* Build configuration list for PBXProject "collection-view-tutorial-2" */ = {
+		F22A562A228228EE0081613F /* Build configuration list for PBXProject "quick-emoji" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F22A563D228228EF0081613F /* Debug */,
@@ -323,7 +323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F22A563F228228EF0081613F /* Build configuration list for PBXNativeTarget "collection-view-tutorial-2" */ = {
+		F22A563F228228EF0081613F /* Build configuration list for PBXNativeTarget "quick-emoji" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F22A5640228228EF0081613F /* Debug */,

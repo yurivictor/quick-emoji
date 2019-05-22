@@ -21,7 +21,7 @@ class ViewController: NSViewController {
     }
 }
 
-var emojis = [ "&#x1f600;", "humans", "smiling", "sad-face" ]
+var emojis = [ "😀", "humans", "smiling", "sad-face" ]
 
 extension ViewController: NSCollectionViewDataSource {
     
