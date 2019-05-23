@@ -22,7 +22,7 @@
 		F22A5636228228EF0081613F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F22A5639228228EF0081613F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F22A563B228228EF0081613F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F22A563C228228EF0081613F /* collection_view_tutorial_2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = collection_view_tutorial_2.entitlements; sourceTree = "<group>"; };
+		F22A563C228228EF0081613F /* quick-emoji.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "quick-emoji.entitlements"; sourceTree = "<group>"; };
 		F22A56422282339D0081613F /* LabelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelItem.swift; sourceTree = "<group>"; };
 		F22A56432282339D0081613F /* LabelItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,7 +64,7 @@
 				F22A5636228228EF0081613F /* Assets.xcassets */,
 				F22A5638228228EF0081613F /* Main.storyboard */,
 				F22A563B228228EF0081613F /* Info.plist */,
-				F22A563C228228EF0081613F /* collection_view_tutorial_2.entitlements */,
+				F22A563C228228EF0081613F /* quick-emoji.entitlements */,
 			);
 			path = "quick-emoji";
 			sourceTree = "<group>";
