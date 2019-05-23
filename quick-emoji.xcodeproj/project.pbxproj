@@ -13,6 +13,7 @@
 		F22A563A228228EF0081613F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22A5638228228EF0081613F /* Main.storyboard */; };
 		F22A56442282339D0081613F /* LabelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22A56422282339D0081613F /* LabelItem.swift */; };
 		F22A56452282339D0081613F /* LabelItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = F22A56432282339D0081613F /* LabelItem.xib */; };
+		F2B1C9A322974D9800EF5E7A /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1C9A222974D9800EF5E7A /* Emoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		F22A563C228228EF0081613F /* quick-emoji.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "quick-emoji.entitlements"; sourceTree = "<group>"; };
 		F22A56422282339D0081613F /* LabelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelItem.swift; sourceTree = "<group>"; };
 		F22A56432282339D0081613F /* LabelItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelItem.xib; sourceTree = "<group>"; };
+		F2B1C9A222974D9800EF5E7A /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				F22A5638228228EF0081613F /* Main.storyboard */,
 				F22A563B228228EF0081613F /* Info.plist */,
 				F22A563C228228EF0081613F /* quick-emoji.entitlements */,
+				F2B1C9A222974D9800EF5E7A /* Emoji.swift */,
 			);
 			path = "quick-emoji";
 			sourceTree = "<group>";
@@ -101,6 +104,7 @@
 				TargetAttributes = {
 					F22A562E228228EE0081613F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -142,6 +146,7 @@
 			files = (
 				F22A5635228228EE0081613F /* ViewController.swift in Sources */,
 				F22A5633228228EE0081613F /* AppDelegate.swift in Sources */,
+				F2B1C9A322974D9800EF5E7A /* Emoji.swift in Sources */,
 				F22A56442282339D0081613F /* LabelItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "collection-view-tutorial-2/collection_view_tutorial_2.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "quick-emoji/quick-emoji.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/quick-emoji/Info.plist";
@@ -289,7 +294,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yurivictor.quick-emoji";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -297,7 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "collection-view-tutorial-2/collection_view_tutorial_2.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "quick-emoji/quick-emoji.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/quick-emoji/Info.plist";
@@ -307,7 +312,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yurivictor.quick-emoji";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
