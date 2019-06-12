@@ -9,7 +9,7 @@
 import Foundation
 
 struct Emoji {
+    let emoji : String
+    let text : String
     let category : String
-    let name : String
-    let icon : String
 }

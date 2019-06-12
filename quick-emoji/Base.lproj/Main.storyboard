@@ -716,7 +716,7 @@
                                     <rect key="frame" x="1" y="1" width="348" height="268"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <collectionView ambiguous="YES" id="Xc8-50-egM">
+                                        <collectionView ambiguous="YES" selectable="YES" allowsMultipleSelection="YES" id="Xc8-50-egM">
                                             <rect key="frame" x="0.0" y="0.0" width="348" height="268"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                             <collectionViewFlowLayout key="collectionViewLayout" id="4lT-Lb-ebp">
